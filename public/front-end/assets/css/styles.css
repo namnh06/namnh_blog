@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif; }
+
+.header {
+  margin-top: 20px; }
+  .header__row__h1 {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 2rem; }
+
+.a-tag-none {
+  text-decoration: none !important; }
+
+.hot-news__col__card-group__card {
+  border: none;
+  border-radius: 0; }
+  .hot-news__col__card-group__card__card-img--opacity {
+    opacity: 0.5; }
+  .hot-news__col__card-group__card__card-img__a {
+    text-decoration: none !important; }
+.hot-news__badge {
+  font-size: 100%;
+  font-weight: normal; }
+
+.feature-news__col {
+  padding: 0; }
+  .feature-news__col__left {
+    height: 560px !important; }
+  .feature-news__col__right {
+    height: 560px !important; }
+    .feature-news__col__right__card-deck {
+      height: 280px !important; }
+      .feature-news__col__right__card-deck__card {
+        margin-right: 0 !important; }
+        .feature-news__col__right__card-deck__card__img {
+          height: 100px !important; }
+        .feature-news__col__right__card-deck__card__body {
+          height: 160px !important; }
+.feature-news__card {
+  margin: 0; }
+
+.news__col {
+  padding: 0; }
+  .news__col__left {
+    height: 560px !important; }
+  .news__col__right {
+    height: 560px !important; }
+    .news__col__right__card-deck {
+      height: 280px !important; }
+      .news__col__right__card-deck__card {
+        margin-left: 0 !important; }
+        .news__col__right__card-deck__card__img {
+          height: 100px !important; }
+        .news__col__right__card-deck__card__body {
+          height: 160px !important; }
+.news__card {
+  margin: 0; }
+
+.news-page__row__img {
+  max-width: 1140px;
+  max-height: 400px; }
+.news-page__row__content__body p {
+  font-size: 1.5rem; }
+.news-page__row__content__body h3 {
+  font-weight: bold; }
+
+.category__row__card-deck__card {
+  height: 400px !important; }
+  .category__row__card-deck__card__img {
+    height: 100px !important; }
+
+.card-text {
+  word-break: break-all; }
+
+/*# sourceMappingURL=styles.css.map */

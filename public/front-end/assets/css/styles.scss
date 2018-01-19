@@ -1,0 +1,137 @@
+$font-family: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+}
+
+.header {
+  margin-top: 20px;
+  &__row {
+    &__h1 {
+      font-family: 'Encode Sans Expanded', sans-serif;
+      font-size: 2rem;
+    }
+  }
+}
+.a-tag-none{
+  text-decoration:none !important;
+}
+.hot-news {
+  &__col {
+    &__card-group {
+      &__card {
+        border: none;
+        border-radius: 0;
+        &__card-img {
+          &--opacity {
+            opacity: 0.5;
+          }
+          &__a {
+            text-decoration: none !important;
+          }
+        }
+      }
+    }
+  }
+  &__badge {
+    font-size: 100%;
+    font-weight: normal;
+  }
+}
+
+.feature-news {
+  &__col {
+    padding: 0;
+    &__left {
+      height: 560px !important;
+    }
+    &__right {
+      height: 560px !important;
+      &__card-deck {
+        height: 280px !important;
+        &__card {
+          margin-right: 0 !important;
+          &__img {
+            height: 100px !important;
+          }
+          &__body {
+            height: 160px !important;
+          }
+        }
+      }
+    }
+  }
+  &__card {
+    margin: 0;
+  }
+}
+
+.news {
+  &__col {
+    padding: 0;
+    &__left {
+      height: 560px !important;
+    }
+    &__right {
+      height: 560px !important;
+      &__card-deck {
+        height: 280px !important;
+        &__card {
+          margin-left: 0 !important;
+          &__img {
+            height: 100px !important;
+          }
+          &__body {
+            height: 160px !important;
+          }
+        }
+      }
+    }
+  }
+  &__card {
+    margin: 0;
+  }
+}
+
+.news-page {
+  &__row {
+    &__img {
+      max-width: 1140px;
+      max-height: 400px;
+    }
+    &__content {
+      &__header {
+
+      }
+      &__body {
+        p {
+          font-size: 1.5rem;
+        }
+        h3 {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.category {
+  &__row {
+    &__card-deck {
+      &__card {
+        height: 400px !important;
+        &__img {
+          height: 100px !important;
+        }
+      }
+    }
+  }
+}
+
+//override bootstrap 4
+.card {
+  &-text {
+    word-break: break-all;
+  }
+}

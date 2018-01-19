@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en" ng-app="website">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Title</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link href="https://use.fontawesome.com/releases/v5.0.0/css/all.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header-directive></header-directive>
+<navigation-directive></navigation-directive>
+<div ui-view></div>
+<footer-directive></footer-directive>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!--angular js components-->
+<script src="node_modules/angular/angular.min.js"></script>
+<script src="node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+<!--controllers js-->
+<script src="controllers/index.controller.js"></script>
+<script src="controllers/home.controller.js"></script>
+<script src="controllers/category.controller.js"></script>
+<script src="controllers/news.controller.js"></script>
+
+<!--directives js-->
+<script src="directives/header.directive.js"></script>
+<script src="directives/navigation.directive.js"></script>
+<script src="directives/hotNews.directive.js"></script>
+<script src="directives/featureNews.directive.js"></script>
+<script src="directives/news.directive.js"></script>
+<script src="directives/footer.directive.js"></script>
+</body>
+</html>

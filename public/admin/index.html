@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en" ng-app="website">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Admin</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link href="https://use.fontawesome.com/releases/v5.0.0/css/all.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<div ui-view></div>
+<!--bootstrap components-->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!--angular js components-->
+<script src="node_modules/angular/angular.min.js"></script>
+<script src="node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+<script src="node_modules/angular-jwt/dist/angular-jwt.min.js"></script>
+<script src="node_modules/angular-local-storage/dist/angular-local-storage.min.js"></script>
+<!--controllers js-->
+<script src="controllers/index.controller.js"></script>
+<script src="controllers/login.controller.js"></script>
+<script src="controllers/home.controller.js"></script>
+
+<!--services js-->
+<script src="services/url.service.js"></script>
+<script src="services/postData.service.js"></script>
+<script src="services/authenticate.service.js"></script>
+
+
+<!--directives js-->
+
+</body>
+</html>
