@@ -13,6 +13,18 @@ website.factory('authenticateService',['$rootScope','$http','urlService','jwtHel
                         $state.go('home');
                     }
                 });
+        },
+        logout : function(){
+            var token = localStorageService.get('token');
+            $http.get(urlService.config('logout'))
+                .then(function(response){
+                    if(response.data.status === 'success'){
+                        $http.defaults.headers.common.Authorization = 'Bearer' + token;
+                        localStorageService.remove('token');
+                        $state.go('login');
+                    }
+                });
+
         }
     }
 }]);
