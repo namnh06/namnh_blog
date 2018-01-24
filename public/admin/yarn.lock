@@ -3,14 +3,14 @@
 
 
 "@uirouter/angularjs@^1.0.12":
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/@uirouter/angularjs/-/angularjs-1.0.12.tgz#b2275b7e33e0024a485f96568a18d350539880f3"
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@uirouter/angularjs/-/angularjs-1.0.13.tgz#a63561d1177541f19b4231117d83ec49a5f19b90"
   dependencies:
-    "@uirouter/core" "5.0.13"
+    "@uirouter/core" "5.0.14"
 
-"@uirouter/core@5.0.13":
-  version "5.0.13"
-  resolved "https://registry.yarnpkg.com/@uirouter/core/-/core-5.0.13.tgz#e1b31626c393cbdd82651755ff1ce3fc55163fd0"
+"@uirouter/core@5.0.14":
+  version "5.0.14"
+  resolved "https://registry.yarnpkg.com/@uirouter/core/-/core-5.0.14.tgz#621477f779886c9287fcc606a4082157fc0ffa65"
 
 angular-jwt@^0.1.9:
   version "0.1.9"
@@ -24,13 +24,13 @@ angular@^1.6.8:
   version "1.6.8"
   resolved "https://registry.yarnpkg.com/angular/-/angular-1.6.8.tgz#5be378a58be91a5489e78b59c4518cd9fd273ffb"
 
-bootstrap@^4.0.0-beta.3:
-  version "4.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.0.0-beta.3.tgz#60f0660bc3d121176514b361f6f83201c7ff8874"
+bootstrap@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.0.0.tgz#ceb03842c145fcc1b9b4e15da2a05656ba68469a"
 
 jquery@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.2.1.tgz#5c4d9de652af6cd0a770154a631bba12b015c787"
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
 
 popper.js@^1.12.9:
   version "1.12.9"

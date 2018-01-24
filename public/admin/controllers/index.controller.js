@@ -25,12 +25,12 @@ website.config(['$stateProvider','$locationProvider','$urlRouterProvider','local
 }]);
 
 website.run(['$rootScope','localStorageService','jwtHelper','$location',function($rootScope,localStorageService,jwtHelper,$location){
-    var token = localStorageService.get('token');
-    if(jwtHelper.isTokenExpired(token)){
-        $state.go('login');
-    } else {
-        $http.defaults.headers.common.Authorization = 'Bearer' + token;
-    }
+    // var token = localStorageService.get('token');
+    // if(jwtHelper.isTokenExpired(token)){
+    //     $state.go('login');
+    // } else {
+    //     $http.defaults.headers.common.Authorization = 'Bearer' + token;
+    // }
 
     $rootScope.$on('$locationChangeStart', function (event, next, current) {
         var publicPages = ['/login'];
